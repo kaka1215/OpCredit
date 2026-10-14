@@ -1,0 +1,44 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Runtime outputs
+/data/
+/datasets/
+/models/
+/checkpoints/
+/outputs/
+/runs/
+/logs/
+/wandb/
+*.log
+*.safetensors
+*.pt
+*.pth
+
+# Local editor files
+.DS_Store
+.AppleDouble
+__MACOSX/
+.vscode/
+.idea/
